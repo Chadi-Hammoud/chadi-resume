@@ -39,7 +39,12 @@
 </head>
 
 <body>
-
+<script>
+    fetch('https://fathomless-mesa-68337.herokuapp.com/data')
+  .then(response => response.json())
+  .then(json => console.log(json))
+  </script>
+  
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
